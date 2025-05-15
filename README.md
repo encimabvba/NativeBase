@@ -1,4 +1,13 @@
-# ⛔️ DEPRECATED
+# ~~⛔️ DEPRECATED~~
+# Forked By Encima
+
+## Reason
+Fork to fix the error:
+```
+TypeError: _reactNative.BackHandler.removeEventListener is not a function
+```
+
+
 # NativeBase ↔ gluestack
 
 > 🚀 NativeBase is evolving into gluestack-ui! What was planned as NativeBase v4 is now available as gluestack-ui - our next-generation component library built for better performance, enhanced customization, and improved developer experience. Visit [gluestack.io](http://gluestack.io) to get started!
@@ -124,7 +133,7 @@ NativeBase 3.0 is a rich component library with nearly 40 components.
 [Kitchen Sink](https://kitchensink.nativebase.io/) is a comprehensive demo app showcasing all the NativeBase components in action. It includes buttons, forms, icons, etc.
 
 <div class="flexible">
-  <img src="https://github.com/GeekyAnts/NativeBase/raw/development/img/kitchensink.gif" height="500px" alt="Kitchensink App gif">  
+  <img src="https://github.com/GeekyAnts/NativeBase/raw/development/img/kitchensink.gif" height="500px" alt="Kitchensink App gif">
   <img src="https://raw.githubusercontent.com/GeekyAnts/NativeBase/development/img/qr.png" height="500px"   alt="Kitchensink App QR code">
 </div>
 
