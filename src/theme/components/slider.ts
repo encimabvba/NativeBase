@@ -47,14 +47,14 @@ export const SliderThumb = {
       bg: `${colorScheme}.600`,
       _hover: {
         _web: {
-          outlineWidth: '4px',
+          outlineWidth: 4,
           outlineColor: primary[300],
           outlineStyle: 'solid',
         },
       },
       _focus: {
         _web: {
-          outlineWidth: '2px',
+          outlineWidth: 2,
           outlineColor: primary[400],
           outlineStyle: 'solid',
         },
@@ -70,14 +70,14 @@ export const SliderThumb = {
         bg: `${colorScheme}.500`,
         _hover: {
           _web: {
-            outlineWidth: '4px',
+            outlineWidth: 4,
             outlineColor: primary[800],
             outlineStyle: 'solid',
           },
         },
         _focus: {
           _web: {
-            outlineWidth: '2px',
+            outlineWidth: 2,
             outlineColor: primary[400],
             outlineStyle: 'solid',
           },

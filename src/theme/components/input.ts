@@ -17,7 +17,7 @@ const baseStyle = (props: InterfaceInputProps & { theme: any }) => {
       },
     },
     _web: {
-      outlineWidth: '0',
+      outlineWidth: 0,
       overflow: 'auto',
       lineHeight: 'lg', // Todo: Move to _web inside size so that sm and xs don't have this much height
       style: { outline: 'none' },
@@ -47,7 +47,7 @@ const baseStyle = (props: InterfaceInputProps & { theme: any }) => {
       _hover: { borderColor: 'error.600' },
       _stack: {
         style: {
-          outlineWidth: '0',
+          outlineWidth: 0,
           boxShadow: `0 0 0 1px ${error[600]}`,
         },
       },
@@ -60,7 +60,7 @@ const baseStyle = (props: InterfaceInputProps & { theme: any }) => {
         _hover: { borderColor: 'error.600' },
         _stack: {
           style: {
-            outlineWidth: '0',
+            outlineWidth: 0,
             boxShadow: `0 0 0 1px ${error[600]}`,
           },
         },
@@ -79,7 +79,7 @@ const baseStyle = (props: InterfaceInputProps & { theme: any }) => {
       },
       _stack: {
         style: {
-          outlineWidth: '0',
+          outlineWidth: 0,
           boxShadow: `0 0 0 1px ${primary[600]}`,
         },
       },
@@ -96,7 +96,7 @@ const baseStyle = (props: InterfaceInputProps & { theme: any }) => {
         _hover: { borderColor: 'primary.500' },
         _stack: {
           style: {
-            outlineWidth: '0',
+            outlineWidth: 0,
             boxShadow: `0 0 0 1px ${primary[500]}`,
           },
         },
@@ -105,7 +105,7 @@ const baseStyle = (props: InterfaceInputProps & { theme: any }) => {
         borderColor: 'error.500',
         _stack: {
           style: {
-            outlineWidth: '0',
+            outlineWidth: 0,
             boxShadow: `0 0 0 1px ${error[500]}`,
           },
         },
@@ -190,7 +190,7 @@ function unstyledStyle() {
     _stack: {
       _focus: {
         style: {
-          outlineWidth: '0',
+          outlineWidth: 0,
         },
       },
     },
@@ -206,7 +206,7 @@ function underlinedStyle(props: InterfaceInputProps & { theme: any }) {
     _focus: {
       _stack: {
         style: {
-          outlineWidth: '0',
+          outlineWidth: 0,
           boxShadow: `0 1px 0 0 ${primary[600]}`,
         },
       },
@@ -224,7 +224,7 @@ function underlinedStyle(props: InterfaceInputProps & { theme: any }) {
       _focus: {
         _stack: {
           style: {
-            outlineWidth: '0',
+            outlineWidth: 0,
             boxShadow: `0 1px 0 0 ${primary[500]}`,
           },
         },

@@ -50,7 +50,7 @@ const baseStyle = (props: Record<string, any>) => {
       borderColor: mode('primary.400', 'primary.500')(props),
     },
     _web: {
-      outlineWidth: '0',
+      outlineWidth: 0,
       overflow: 'auto',
       lineHeight: 'lg', // Todo: Move to _web inside size so that sm and xs don't have this much height
       outline: 'none',
